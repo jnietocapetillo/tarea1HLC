@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:backgroundTint="#3A6281"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="396dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="100dp"
+        android:background="#5E29324E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="135dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="1"
+                android:textColor="#CFC8C8"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="135dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="2"
+                android:textColor="#CFC8C8"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="135dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="3"
+                android:textColor="#CFC8C8"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="135dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="4"
+                android:textColor="#CFC8C8"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="135dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="5"
+                android:textColor="#CFC8C8"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="135dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="6"
+                android:textColor="#CFC8C8"
+                android:textSize="30sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/armata"
+        android:text="Ruleta Rusa"
+        android:textAlignment="center"
+        android:textColor="?android:attr/detailsElementBackground"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btIniciar"
+        android:layout_width="384dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="320dp"
+        android:backgroundTint="#649CBA"
+        android:fontFamily="@font/armata"
+        android:text="I  N  I  C  I  A  R"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="400dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/armata"
+        android:textColor="#E1E48E"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
