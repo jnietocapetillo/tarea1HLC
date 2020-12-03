@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (resultCode == RESULT_OK){
             irListado = true;
+            Toast.makeText(getApplicationContext(), "Registrado correctamente", Toast.LENGTH_LONG).show();
         }
         else
             Toast.makeText(getApplicationContext(),"Debe registrarse antes para listar",Toast.LENGTH_SHORT).show();
